@@ -1,0 +1,7 @@
+<div id="emergencyMessage" tal:condition="view/should_display">
+  
+    <!-- you could use plone's standard date formatting here also -->
+	  <div id="emergencyLastUpdatedTime" tal:condition="view/last_updated" tal:content="view/last_updated_formatted" />
+	  <tal:message tal:replace="structure view/message" />
+	  
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ <import-step 
+    id="uwosh.simpleemergency-post-uninstall" 
+    handler="uwosh.simpleemergency.setuphandlers.uninstall"
+    title="manual coded post-uninstall for uwosh.simpleemergency"
+    version="1">
+ </import-step>
+
+</import-steps>
